@@ -1,8 +1,232 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
-font-family: "SofiaSansExtraCondenset";
-src: url("../fonts/Sofia_Sans_Extra_Condensed/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf");
-      background-color: #AA0004; 
-    color: white;
-    text-align: center; 
-    
-  }
+  width: 100%;
+  margin: 0;
+  
+  font-family: 'Helvetica-Regular';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 230px;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.header {
+  
+  background:#EA3827;
+  width: 100%;
+  padding-bottom: 82px;
+  padding-top: 10px;
+}
+
+.header__container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 60px;
+  height: 36px;
+}
+
+.logo__img {
+  object-fit: contain;
+}
+
+.logo__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo__img {
+  
+  height: 250;
+}
+
+.navigation__item {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 135%;
+  text-decoration: none;
+  font-weight: regular;
+  font-family: "Helvetica";
+
+  
+  padding: 12px;
+  border-radius: 50px 50px 50px 50px;
+  
+}
+
+
+
+.navigation__right {
+  margin-left: 14px;
+  margin-top: 70px;
+  
+}
+.container-image {
+  display: flex;
+  align-items: center;
+  margin-top: 190px; 
+}
+.textbutton{
+  
+}
+
+.title {
+  font-size: 30px; 
+  font-weight: 400;
+  margin-top: 0px;
+  color: #ffffff;
+}
+div.fifthcontainer .title h2 {
+  color: #ffffff;
+}
+
+div.fifthcontainer .gnomes {
+  max-width: 1200px;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+div.dwarf {
+  width: 280px;
+  padding-bottom: 0px;
+}
+
+div.dwarf img {
+  width: 298px;
+  height: 298px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  
+}
+
+div.dwarf h3 {
+  padding-top: 34px;
+  font-family: ibm plex sans;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 32pt;
+  font-family: 'Helvetica';
+  
+}
+
+div.dwarf h4 {
+  padding-top: 14px;
+  font-family: ibm plex sans;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Helvetica';
+
+  
+}
+
+div.sixthcontainer {
+  width: 100%;
+  background-color: #ffffff;
+}
+.text {
+
+}
+
+
+
+.main {
+  background-color: #5DBBAC;
+  
+}
+.sectiomain {
+  padding-top: 96px;
+  padding-bottom: 59px;
+}
+
+.footer {
+}
+
+.texthead {
+  font-family: 'Cramaten';
+  font-size: 80px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+.fotohead {
+ 
+  
+}
+
+
+  
+
+
+.buttonbooking {
+  width: 279px;
+  height: 63px;
+  border-radius: 30px;
+  background-color: #5DBBAC;
+  color: #fafafa;
+  text-align: center;
+  font-size: 25px;
+  
+  
+}
+.title {
+  font-size: 64px;
+  font-family: 'cramaten';
+margin-bottom: 23px;
+}
+
+
+
+
+/* .karta img 
+  width: 100%;
+  height: 774px; */
+
+
+
+.podval {
+  display: flex;
+  width: auto;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.podvalcontent {
+  display: flex;
+  height: 149px;
+  width: 900px;
+  align-items: center;
+  justify-content: space-between;
+  color: #fafafa;
+  font-family: 'Helvetica';
+  font-size: 15px;
+
+}
+
+.footer {
+  background-color: #EA3827;
+}
+
