@@ -1,15 +1,14 @@
 <head>
+  
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./SRC/styles/styles.css"> 
     
       </head>
 <body>
-  <div class="containerhead">
+  
   <header class="header">
     <div class="container horizontal space-between header__container">
-      
-
       </nav>
 
       <div class="logo">
@@ -18,13 +17,12 @@
         </a>
 
       </div>
+     <nav class="navigation navigation__right">
+        <a class="navigation__item" href="#prost">пространства</a>
+        <a class="navigation__item" href="#bron">забронировать</a>
 
-      <nav class="navigation navigation__right">
-        <a class="navigation__item" href="">пространства</a>
-        <a class="navigation__item" href="">забронировать</a>
-
-        <a class="navigation__item" href="">отзывы</a>
-        <a class="navigation__item" href="">контакты</a>
+        <a class="navigation__item" href="#otz">отзывы</a>
+        <a class="navigation__item" href="#cont">контакты</a>
 
       </nav>
     </div>
@@ -33,18 +31,71 @@
       <h1 class="texthead">
         вас угнетает тяжкий труд в шахтах? <br> 
         Измените свою жизнь!</h1>
-        
-          <button class="buttonbooking">ЗАБРОНИРОВАТЬ</button>
+        <button class="buttonbooking"><a href="#bron">ЗАБРОНИРОВАТЬ</a></button>
         
       </div>
         <div class="fotohead">
-          <img class="fotohead1" src="SRC/img/Untitled-2.png" width="550px" >
+          <img class="fotohead1" src="SRC/img/Untitled-2.png" width="550px" height="443px" alt="Коворкинг">
+        </a>
       </div>
       </div>
   </header>
-  </div>
-
-  <main class="main">
+  <div id="prost" class="prostranstvogroup">
+    <div class="div-horizontal-scroll">
+        <img class="prostranstvo" src="./SRC/img/раздевалка3png.png" height="730px">
+        <img class="prostranstvo" src="./SRC/img/2hраздеывалка.png" height="730px">
+        <img class="prostranstvo" src="./SRC/img/столовая1.png" height="730px">
+        <img class="prostranstvo" src="./SRC/img/1 рендер для навигации.png" height="730px">
+      </div>
+    </div>
+<div class="about">
+  <section class="section sectiomain" >
+    <div class="container">
+      <div class="titlewraper">
+        <h2 class="title">У НАС ЕСТЬ</h2>
+      </div>
+ 
+      <div class="preemusestva">
+        <div class="preem">
+        <div class="razdevalka">
+            <img src="./SRC/img/Asset 13.png">
+            <h3>Раздевалка</h3>
+            <p> В обустройстве раздевалки использованы связанные с шахтой вещи.  </p>
+          </div>
+          <div class="stolovaia">
+            <img src="./SRC/img/Asset 12.png">
+            <h3>Столовая</h3>
+            <p> В столовой использованы новые, однако оставлены грибы и растения. </p>
+          </div>
+          <div class="dush">
+            <img src="./SRC/img/Asset 14.png">
+            <h3>Душевая</h3>
+            <p> В душевой вас ждет водопад и грибы вместо стульев. </p>
+          </div>
+          
+        </div>
+        <div class="second">
+          <div class="vagonetka">
+            <img src="./SRC/img/Asset 1.png">
+          <h3>Вагонетки</h3>
+          <p> Повеселиться и забыть о проблемах можно, катаясь на вагонетках. </p>
+        </div>
+        <div class="WiFi">
+          <img src="./SRC/img/Asset 11.png">
+          <h3>Wi-Fi</h3>
+          <p> Благодаря ему вы можете спокойно работать и лазить в интернете. </p>
+        </div>
+        <div class="zona">
+          <img src="./SRC/img/Asset 3.png">
+          <h3>Рабочая зона</h3>
+          <p> Все оборудованно согласно последним технологиям и маленькам росточкам.</p>
+        </div>
+      </div>
+    </div>
+      </div>
+</section>
+</about>
+<main class="main">
 
     <section class="section sectiomain" >
     
@@ -52,49 +103,79 @@
       
       <div id="blockdwarf" class="fifthcontainer">
       
-          <div class="titlewraper">
+          <div id="otz" class="titlewraper">
               <h2 class="title">ОТЗЫВЫ ГНОМОВ</h2>
           </div>
           <div class="gnomes">
               <div class="dwarf">
                   <img src="./SRC/img/побочные хтмл-01.jpg" alt="забойщик, ставший програмистом">
                   <h3>Гном Гномыч</h3>
-                  <h4>Хорошие условия!<br> <br>Должен был до самой старости оставаться забойщиком, но благодаря этому месту я не поднимаю ничего тяжелее ноутбука. Думаю, теперь меня ждет более долгая жизнь.</h4>
+                  <p>Хорошие условия!</p> <p class="text">Должен был до самой старости оставаться забойщиком, но благодаря этому месту я не поднимаю ничего тяжелее ноутбука. Думаю, теперь меня ждет более долгая жизнь.</p>
               </div>
               <div class="dwarf">
                   <img src="./SRC/img/побочные хтмл-02.jpg" alt="из сортировщика в писателя">
                   <h3>Андвари Йом</h3>
-                  <h4>Рабочие места ужасно комфортные!<br><br> Думал, что после шахт уже никогда не разогнусь и буду, как погнутое перекрытие, но три месяца надземлей и ортопедическое кресло спасли мою спину.</h4>
+                  <p>Рабочие места ужасно комфортные!</p> <p class="text"> Думал, что после шахт уже никогда не разогнусь и буду, как погнутое перекрытие, но три месяца надземлей и ортопедическое кресло спасли мою спину.</p>
               </div>
               <div class="dwarf">
                   <img src="./SRC/img/побочные хтмл-03.jpg" alt="откачица теперь художница">
                   <h3>Эйтри Ланти</h3>
-                  <h4>Совсем другая жизнь! <br><br> Больше никаких садин и ядовитых испарений, лишь печеньки, грибные снеки и вкуснейший кофе. Администраторы крайне приветливые, всегда улыбаются и помогают.</h4>
+                  <p>Совсем другая жизнь!</p> <p class="text">Больше никаких ссадин и ядовитых испарений, лишь печеньки, грибные снеки и вкуснейший кофе. Администраторы крайне приветливые, всегда улыбаются и помогают.</p>
+                  <!-- абзац п -->
               </div>
           </div>
         </div>
    
   </section>
   </main>
-  <!-- <div class="karta">
-  <img src="./SRC/img/карта.png">
-</div> -->
+  <form id="bron" class="form">
+    <section class="section sectiomain" >
+      <div class="container">
+        <div class="titlewraper">
+          <h2 class="title">ЗАБРОНИРОВАТЬ</h2>
+        </div>
+        <form class="decor">
+          <div class="circle"></div>
+          <div class="form-inner">
+          <input type="text" placeholder="ФИО">
+          <input type="email" placeholder="Email">
+          <input type="date" value="2024-01-01">
+          <input  type="time">
+          <input type="reset" value="СБРОСИТЬ">
+          <input type="submit" value="ЗАБРОНИРОВАТЬ">
+    </div>
+          </div>
+          </form>
+      </div>
+    </div>
+  </section>
+  </form>
+   <div class="karta">
+    <section class="section sectiomain" >
+      <div class="container">
+    <h2 class="title">ЛОКАЦИИ КОВОРКИНГОВ</h2>
+    <iframe class="googlekarta" src="https://yandex.ru/map-widget/v1/?um=constructor%3A4addeeb7d2d09b54cc1df47ff1539331165b85860c488210876ba294bcc4e1c5&amp;source=constructor" width="980px" height="400" frameborder="0"></iframe>
+  </section>
+</div>
+</div> 
   <footer class="footer">
-    <div class="container">
-        <div class="podval">
-            <div class="podvalcontent">
-                <div>
-                    <p>+7 (212) 850-62-12</p>
+    <div id="cont" class="container podval">
+        
+            
+                <div class="phone">
+                    <a href="tel:+7 (212) 850-62-12">+7 (212) 850-62-12</a> 
+                    <!-- ссылка тег а хрев и ссылки или через тел или через емейл -->
                 </div>
                 <div>
                     <p> ул. Горная кр. (16834265789043),<br>
                         Пятая гора, вход слева</p>
+                        
                 </div>
-                <div>
-                    <p>germinal@gmail.com</p>
+                <div class="email">
+                    <a href="mailto:germinal@gmail.com">germinal@gmail.com</a>
                 </div>
-            </div>
-        </div>
+           
+       
     </div>
 
   </footer>
