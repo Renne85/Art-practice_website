@@ -3,3 +3,4 @@
 
 # Ссылка на сайт:
 https://renne85.github.io/Art-practice_website/
+<a href="https://renne85.github.io/Art-practice_web" target="_blank"> Макет </a>
