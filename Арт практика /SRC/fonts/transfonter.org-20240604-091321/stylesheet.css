@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cramaten';
+    src: url('Cramaten.woff2') format('woff2'),
+        url('Cramaten.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
